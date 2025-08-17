@@ -1,0 +1,7 @@
+Q1. What happens when the number of hidden nodes increases?
+
+When the number of hidden nodes increases from 1 to around 3–5, the accuracy improves significantly. For very small numbers (1 or 2), the accuracy is low because the model is too simple. After about 5 nodes, the accuracy does not improve much and may slightly decrease.
+
+Q2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+With very few hidden nodes, the model underfits because it cannot capture complex patterns in the data. As the hidden nodes increase to a moderate number, the model’s capacity improves, leading to higher accuracy. However, adding too many hidden nodes can cause overfitting or redundancy, so the accuracy plateaus or slightly drops.
